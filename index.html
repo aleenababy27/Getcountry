@@ -24,12 +24,11 @@
                     <option value="" class="form-control">Select a Country</option>
                 </select>
             </div>
-
-            <div class="col-4"></div>
-            <div class="row" id="result">
-
-            </div>
-        </div>
+            <div class="row mt-5">
+                <div class="col-4"></div>
+                <div class="col-4" id="result"></div>
+                <div class="col-4"></div>
+              </div>
    
     </div>
 </body>
@@ -45,7 +44,7 @@ function populateValues(data){
 
             let htmlData=`
             
-            <div class="card" style="width: 18rem;">
+            <div class="card" style="width: 50%;">
             <img src="${flag}" class="card-img-top" alt="...">
             <div class="card-body">
             <h5 class="card-title">Name:${countryName}</h5>
